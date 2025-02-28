@@ -108,7 +108,7 @@ const members = {
         // pre-previous month list
         post_payable        :2631,
         previous_paid       :2900,
-        previous_dining_cost:1400,
+        previous_dining_cost:1456,
         payment             :undefined,
         // running month
         stay_cost       :2000,
@@ -123,12 +123,12 @@ const members = {
         totalPayable
     },
     "01744459622":{
-        name:"Shariful Islam",
+        name:"Unknown2",
         // join:"new",
         // pre-previous month list
-        post_payable        :4413,
-        previous_paid       :2000,
-        previous_dining_cost:1400,
+        post_payable        :0,
+        previous_paid       :0,
+        previous_dining_cost:0,
         payment             :undefined,
         // running month
         stay_cost       :0,
@@ -148,7 +148,7 @@ const members = {
         // pre-previous month list
         post_payable        :3823,
         previous_paid       :5500,
-        previous_dining_cost:1840,
+        previous_dining_cost:1848,
         payment             :undefined,
         // running month
         stay_cost       :0,
@@ -168,7 +168,7 @@ const members = {
         // pre-previous month list
         post_payable        :3238,
         previous_paid       :5000,
-        previous_dining_cost:3024,
+        previous_dining_cost:2800,
         payment             :undefined,
         // running month
         stay_cost       :2400,
@@ -188,7 +188,7 @@ const members = {
         // pre-previous month list
         post_payable        :5000,
         previous_paid       :7500,
-        previous_dining_cost:3024,
+        previous_dining_cost:2800,
         payment             :undefined,
         // running month
         stay_cost       :3000,
@@ -243,15 +243,15 @@ const members = {
         totalPayable
     },
     "01749244430":{
-        name:"Amdadul Haque",
+        name:"Unknown",
         //  join:"new",
         // pre-previous month list
-        post_payable        :4316,
-        previous_paid       :6000,
-        previous_dining_cost:1456,
+        post_payable        :0,
+        previous_paid       :0,
+        previous_dining_cost:0,
         payment             :undefined,
         // running month
-        stay_cost       :3500,
+        stay_cost       :0,
         garage_cost     :0,
         running_payable :0,
         running_paid    :0,
