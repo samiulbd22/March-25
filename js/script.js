@@ -80,7 +80,7 @@ const members = {
     runningMonth    :"March-25",
     previousMonth   :"February-25", // new addDecember
     upComingMonth   :"April 1,2025",
-    runningMealRate :98,
+    runningMealRate :102,
 
     "01814843266":{
         name:"Istiaq Ahmad Udoy",
@@ -246,10 +246,10 @@ const members = {
         name:"Syful Islam",
         //  join:"new",
         // pre-previous month list
-        post_payable        :0,
-        previous_paid       :0,
+        post_payable        :3000,
+        previous_paid       :500,
         previous_dining_cost:0,
-        payment             :{"02/03/25-Cash":500},
+        payment             :{"02/03/25-Cash":500,"04/03/25-bKash":3000},
         // running month
         stay_cost       :0,
         garage_cost     :0,
