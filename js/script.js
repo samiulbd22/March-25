@@ -704,13 +704,9 @@ function opener(){
                                                 <td class="getMeals">${members["01714443406"].runningMonth().remainDining}</td>
                                                 <td>${members["01714443406"].runningMonth().diningDue}</td>
                                             </tr>
-                                            <tr>
-                                                <td>${members["01834648400"].name}</td>
-                                                <td>${members["01834648400"].runningDiningCost()}</td>
-                                                <td>${members["01834648400"].runningMonth().diningAdd}</td>
-                                                <td class="getMeals">${members["01834648400"].runningMonth().remainDining}</td>
-                                                <td>${members["01834648400"].runningMonth().diningDue}</td>
-                                            </tr> 
+                                            /**
+					    pias
+					    **/
                                             <tr>
                                                 <td>${members["01874857679"].name}</td>
                                                 <td>${members["01874857679"].runningDiningCost()}</td>
@@ -725,7 +721,13 @@ function opener(){
                                                 <td>${members["01821245430"].runningMonth().diningAdd}</td>
                                                 <td class="getMeals">${members["01821245430"].runningMonth().remainDining}</td>
                                                 <td>${members["01821245430"].runningMonth().diningDue}</td>`;
-                                            };
+                                            }else if(memberNumber==="01834648400"){
+						memberDiningList.appendChild(document.createElement('tr')).innerHTML=`<td>${members["01834648400"].name}</td>
+                                                <td>${members["01834648400"].runningDiningCost()}</td>
+                                                <td>${members["01834648400"].runningMonth().diningAdd}</td>
+                                                <td class="getMeals">${members["01834648400"].runningMonth().remainDining}</td>
+                                                <td>${members["01834648400"].runningMonth().diningDue}</td>`;	
+					    };
             let colorChanged = document.getElementsByClassName('getMeals');
         
             for (let nd = 0; nd < colorChanged.length; nd++) {
