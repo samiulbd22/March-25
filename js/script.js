@@ -704,9 +704,7 @@ function opener(){
                                                 <td class="getMeals">${members["01714443406"].runningMonth().remainDining}</td>
                                                 <td>${members["01714443406"].runningMonth().diningDue}</td>
                                             </tr>
-                                            /**
-					    pias
-					    **/
+                                           
                                             <tr>
                                                 <td>${members["01874857679"].name}</td>
                                                 <td>${members["01874857679"].runningDiningCost()}</td>
