@@ -115,7 +115,7 @@ const members = {
         garage_cost     :0,
         running_payable :2997,
         running_paid    :4500,
-        running_meal    :42,
+        running_meal    :44,
         // method calling
         preMonth,
         runningDiningCost,
@@ -143,19 +143,19 @@ const members = {
         totalPayable
     },
     "01780608997":{
-        name:"Md Tushar Biswas",
+        name:"unknown",
         
         // pre-previous month list
-        post_payable        :3823,
-        previous_paid       :5500,
-        previous_dining_cost:1848,
-        payment             :{"03/03/25-Cash":500,"09/03/25-Cash":2000},
+        post_payable        :0,
+        previous_paid       :0,
+        previous_dining_cost:0,
+        payment             :undefined,
         // running month
         stay_cost       :0,
         garage_cost     :0,
-        running_payable :981,
-        running_paid    :2500,
-        running_meal    :42,
+        running_payable :0,
+        running_paid    :0,
+        running_meal    :0,
         // method calling
         preMonth,
         runningDiningCost,
@@ -195,7 +195,7 @@ const members = {
         garage_cost     :0,
         running_payable :4110,
         running_paid    :6110,
-        running_meal    :25,
+        running_meal    :26,
         // method calling
         preMonth,
         runningDiningCost,
@@ -276,7 +276,7 @@ const members = {
         garage_cost     :200,
         running_payable :-304,
         running_paid    :3500,
-        running_meal    :47,
+        running_meal    :49,
         // method calling
         preMonth,
         runningDiningCost,
