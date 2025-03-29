@@ -80,7 +80,7 @@ const members = {
     runningMonth    :"March-25",
     previousMonth   :"February-25", // new addDecember
     upComingMonth   :"April 1,2025",
-    runningMealRate :78,
+    runningMealRate :74,
 
     "01814843266":{
         name:"Istiaq Ahmad Udoy",
@@ -109,13 +109,15 @@ const members = {
         post_payable        :2631,
         previous_paid       :3900,
         previous_dining_cost:1456,
-        payment             :{"02/03/25-Cash":500,"10/03/25-Cash":2000,"14/03/25-DBBL":500,"15/03/25-DBBL":500,"18/03/25-DBBL":500,"22/03/25-DBBL":500,"26/03/25-DBBL":500},
+        payment             :{"02/03/25-Cash":500,"10/03/25-Cash":2000,"14/03/25-DBBL":500,
+			      "15/03/25-DBBL":500,"18/03/25-DBBL":500,
+			      "22/03/25-DBBL":500,"26/03/25-DBBL":500,"29/03/25-DBBL":500},
         // running month
         stay_cost       :2000,
         garage_cost     :0,
         running_payable :2997,
-        running_paid    :5000,
-        running_meal    :46,
+        running_paid    :5500,
+        running_meal    :48,
         // method calling
         preMonth,
         runningDiningCost,
@@ -195,7 +197,7 @@ const members = {
         garage_cost     :0,
         running_payable :4110,
         running_paid    :6110,
-        running_meal    :28,
+        running_meal    :30,
         // method calling
         preMonth,
         runningDiningCost,
@@ -215,7 +217,7 @@ const members = {
         garage_cost     :0,
         running_payable :4385,
         running_paid    :5000,
-        running_meal    :23,
+        running_meal    :25,
         // method calling
         preMonth,
         runningDiningCost,
